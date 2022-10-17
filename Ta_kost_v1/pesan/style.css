@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+
+*, body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    height: 100%;
+    background-color: #152733;
+    overflow: hidden;
+}
+
+.form-holder {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;  
+      align-items: center;
+      text-align: center;
+      min-height: 100vh;
+}
+
+.form-holder .form-content {
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+/* edit bingkai form */
+.form-content .form-items {
+    border: 3px solid #fff;
+    padding: 30px;
+    min-width: 540px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.form-content h3 {
+    color: #fff;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.form-content p {
+    color: #fff;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+/* edit kolom pengisian */
+.form-content input, .form-content select {
+    padding: 9px 20px;
+    text-align: left;
+    outline: 0;
+    border-radius: 6px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    color: #141313;
+    margin-top: 16px;
+}
+
+.btn-primary{
+    background-color: #587792;
+    outline: none;
+    border: 0px;
+}

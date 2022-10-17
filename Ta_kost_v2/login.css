@@ -1,0 +1,43 @@
+
+body {
+    background-image: url(img/bg.jpg);
+    overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.form {
+    background: #fff;
+    width: 300px;
+    margin: 100px auto;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #646161;
+    margin: 10px 0;
+}
+
+.form button {
+    background: #007ee5;
+    width: 100%;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 13.5px;
+}
+
+p a {
+    text-decoration: none;
+    color: #007ee5;
+}
